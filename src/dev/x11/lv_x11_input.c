@@ -12,6 +12,7 @@
 
 #include <stdbool.h>
 #include <X11/Xlib.h>
+#define XUTIL_DEFINE_FUNCTIONS // use direct functions instead of callbacks from Display struct
 #include <X11/Xutil.h>
 #include "../../stdlib/lv_string.h"
 #include "../../widgets/image/lv_image.h"
